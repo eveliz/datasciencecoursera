@@ -1,0 +1,14 @@
+## Commands used
+git init
+git add HelloWorld.md
+git commit -m "first commit"
+git remote add origin git@github.com:eveliz/datasciencecoursera.git
+git push -u origin master
+
+## additional commands (used for authentication)
+cd ~/.ssh
+ls -al
+ssh-keygen -t rsa -C "edgardo.veliz.limas@gmail.com"
+ssh-agent xterm &
+ssh-add ~/.ssh/id_rsa
+
